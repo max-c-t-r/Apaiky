@@ -1,0 +1,72 @@
+.order{
+    padding: 20px 100px;
+}
+.order .order-title{
+    display: flex;
+    gap: 40px;
+    font-size: 1.6em;
+    align-items: center;
+    color: #CF1684;
+    margin: 50px 0;
+}
+.order-title__text{
+    font-size: 1.8em;
+}
+.order-title__text .size{
+    display: block;
+    font-size: 2em;
+}
+.order-tracking{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0;
+    margin-bottom: 50px;
+    gap: 25px;
+}
+.tracking-input, .catpcha__input{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #517393;
+    color: white;
+}
+.tracking{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tracking-title{
+    color: #CD1784;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.catpcha{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.catpcha__title{
+    display: flex;
+    gap: 10px;
+    color: #CD1784;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.catpcha__code{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background: burlywood;
+    margin-right: 15px;
+    font-size: 1.6em;
+    text-align: center;
+    border-radius: 8px;
+}
+.catpcha__title-icon{
+    cursor: pointer;
+}
+.catpcha__input{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.order-tracking-send{
+    margin-top: auto;
+}

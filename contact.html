@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Apaiky</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header-logo" src="images/Logoapaiki 1.svg" alt="logo Apaiky">
+        <nav class="header-navigation">
+            <li class="header-navigation__option"><a href="index.html">Inicio</a></li>
+            <li class="header-navigation__option"><a href="#">Servicios</a></li>
+            <li class="header-navigation__option"><a href="angency.html">Agencias</a></li>
+            <li class="header-navigation__option"><a href="#">Blog</a></li>
+            <li class="header-navigation__option"><a href="contact.html">Contacto</a></li>
+        </nav>
+        <div class="header-social">
+            <a class="header-social__item" href="" target="blank"><i class="item__facebook fab fa-facebook-f"></i></a>
+            <a class="header-social__item" href="" target="blank"><i class="item__youtube fab fa-youtube-square"></i></a>
+            <a class="header-social__item" href="" target="blank"><i class="item__instagram fab fa-instagram"></i></a>
+        </div>
+    </header>
+    <main class="main">
+        <h2 class="titulo">Contactos</h2>
+        <section class="contact">
+            <form class="form" action="">
+                <h4 class="form__h4">Escríbenos</h4>
+                <p class="form__p">Completa tus datos y nos estaremos comunicando a la brevedad</p>
+                <div class="form-data">
+                    <input required name="Nombre" type="text" placeholder="Nombres" class="form__i form__i2">
+                    <input required name="Apellido" type="text" placeholder="Apellidos" class="form__i form__i2">
+                    <input required name="Correo electrónico" type="email" placeholder="Correo electrónico"
+                        class="form__i form__block">
+                    <input required name="telefono" type="text" placeholder="+51 9.........." class="form__i form__i2">
+                    <input required name="empresa" type="text" placeholder="Empresa" class="form__i form__i2">
+                    <textarea style="resize: none; height: 80px;" name="mensaje" cols="30" rows="10" placeholder="Mensaje" class="form__i form__block"></textarea>
+                </div>
+                <div class="boton">
+                    <button class="form__send" type="submit">Enviar</button>
+                </div>
+
+            </form>
+            <div class="info">
+                <h4 class="info__h4">Agencia central</h4>
+                <div class="info__address">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info__dirección">
+                        <p class="info__dist">LA MOLINA</p>
+                        <p class="info__zona">Calles Las Camelias 188 – Urb Camacho  </p>
+                    </div>
+                </div>
+                <div class="info__telf">
+                    <i class="fas fa-phone"></i>
+                    <p class="info__nrotelf">Central: <span class="info__nro-telf">+51 947537035</span></p>
+                </div>
+                <div class="info__email">
+                    <i class="fas fa-envelope"></i>
+                    <p class="info__dir">Correo: <span class="info__correo">ventas@apaiky.com</span></p>
+                </div>
+                <div class="info__redes">
+                    <a class="info__link" href="#" target="blank"><i class="fab fa-facebook info-fb"></i></a>
+                    <a class="info__link" href="#" target="blank"><i class="fab fa-youtube info-yt"></i></a>
+                    <a class="info__link" href="#" target="blank"><i class="fab fa-linkedin info-in"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <a class="appWhatsapp" href="https://api.whatsapp.com/send?phone=947537035&" target="_blank">
+        <!--appWhatsapp" href="https://api.whatsapp.com/send?phone=999999999&text=hola!&nbsp;sss-->
+        <i class="appWhatsapp__icon fab fa-whatsapp"></i>
+    </a>
+    <footer class="footer">
+        <div class="footer-redirect">
+            <li class="footer-redirect__option"><a class="option__text" href="#">preguntas frecuentes</a></li>
+            <li class="footer-redirect__option"><a class="option__text" href="list-prices.html">precios</a></li>
+            <li class="footer-redirect__option"><a class="option__text" href="#">libro de reclamaciones</a></li>
+            <li class="footer-redirect__option"><a class="option__text" href="#">blog</a></li>
+            <li class="footer-redirect__option"><a class="option__text" href="angency.html">agencias</a></li>
+        </div>
+        <div class="policity-privacity">
+            <li class="policity-privacity__option"><a class="option__text" href="#">Terminos de servicio</a></li>
+            <li class="policity-privacity__option"><a class="option__text" href="#">Políticas de seguridad</a></li>
+        </div>
+        <div class="copyright">APAYKI©2022. All Rights Reserved</div>
+    </footer>
+</body>
+</html>
