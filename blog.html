@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/legacity.css">
+    <link rel="stylesheet" href="CSS/blog.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Apaiky</title>
@@ -17,7 +17,7 @@
             <li class="header-navigation__option"><a href="index.html">Inicio</a></li>
             <li class="header-navigation__option"><a href="#">Servicios</a></li>
             <li class="header-navigation__option"><a href="agency.html">Agencias</a></li>
-            <li class="header-navigation__option"><a href="#">Blog</a></li>
+            <li class="header-navigation__option"><a href="blog.html">Blog</a></li>
             <li class="header-navigation__option"><a href="contact.html">Contacto</a></li>
         </nav>
         <div class="header-social">
@@ -27,21 +27,31 @@
         </div>
     </header>
     <main class="main">
-        <h4 class="legal__titulo">Legalidad</h4>
-        <section class="legal-section">
-            <div class="legal-doc">
-                <img class="legal-arch" src="images/legacity and  list-prices/legalidad.svg" alt="legal-doc">
-            </div>
-            <div class="legal__boton">
-                <button class="legal__download">Descargar</button>
-            </div>
+        <section class="blog">
+
         </section>
     </main>
+
     <a class="appWhatsapp" href="https://api.whatsapp.com/send?phone=947537035&" target="_blank">
         <!--appWhatsapp" href="https://api.whatsapp.com/send?phone=999999999&text=hola!&nbsp;sss-->
         <i class="appWhatsapp__icon fab fa-whatsapp"></i>
     </a>
+    
     <footer class="footer">
+        <form class="footer-form">
+            <input class="footer-form__input" required name="email" type="email" placeholder="Ingrese su correo electrónico">
+            <button class="footer-form__send button1" type="submit">Suscribete</button>
+        </form>
+        <div class="footer-info">
+            <div class="footer-info-content">
+                <i class="footer-info-content__icon fas fa-thumbtack"></i>
+                <a class="footer-info-content__text" href="angency.html" >Ubicaciones de las agencias</a>
+            </div>
+            <div class="footer-info-content">
+                <i class="footer-info-content__icon fas fa-phone-volume"></i>
+                <a class="footer-info-content__text" href="#" >+51927002256</a>
+            </div>
+        </div>
         <div class="footer-redirect">
             <li class="footer-redirect__option"><a class="option__text" href="#">preguntas frecuentes</a></li>
             <li class="footer-redirect__option"><a class="option__text" href="list-prices.html">precios</a></li>

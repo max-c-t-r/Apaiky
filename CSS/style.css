@@ -158,6 +158,7 @@ button{
     font-size: 1.1em;
     font-weight: bold;
     padding: 5px;
+    margin: auto;
 }
 .card__icon{
     font-size: 50px;
@@ -194,8 +195,7 @@ button{
     height: 100%;
     z-index: -1;
 }
-.make-shipments__img{
-    position: relative;
+.make-shipments-img{
     width: 490px;
     height: 390px;
 }
@@ -208,7 +208,7 @@ button{
 }
 .make-shipments-info{
     position: relative;
-    color: white;
+/*    color: white;*/
     font-size: 1.5em;
 }
 /*steps*/
@@ -243,6 +243,7 @@ button{
     display: grid;
     grid-template-columns: 1fr;
     font-size: 1.2em;
+    gap: 10px;
 }
 .tutorial-info__title{
     text-transform: uppercase
@@ -263,6 +264,7 @@ button{
     justify-content: center;
     padding-top: 60px;
     padding-inline: 120px;
+    gap: 10px;
 }
 .data-card__info{
     display: block;
@@ -308,12 +310,13 @@ button{
     font-size: 2em;
 }
 .footer-form__input{
-    padding-left: 15px;
     font-size: .7em;
     background-color: #517393;
     border: none;
     color: white;
     font-weight: bold;
+    padding:  15px 0px;
+    padding-left: 15px;
 }
 .footer-form__input::placeholder{
     color: #859DB3
@@ -370,17 +373,141 @@ button{
 }
 /* RESPONSIVE */
 @media screen and (max-width: 1200px){
-
+    .card-info{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer{
+        padding: 30px 100px;
+    }
 }
 @media screen and (max-width: 1024px){
-
+    .header{
+        padding: 60px 40px;
+    }
+    .header-navigation__option{
+        font-size: 20px;
+    }
+    .header-social{
+        gap: 5px;
+    }
+    .card-info{
+        padding: 100px 60px;
+        grid-template-columns: repeat(3, 1fr)
+    }
+    .make-shipments{
+        padding: 20px 60px;
+    }
+    .tutorial-content{
+        padding: 20px 60px;
+    }
+    .steps{
+        padding: 20px 60px;
+    }
+    .appWhatsapp{
+        display: none;
+    }
+}
+@media screen and (max-width: 865px){
+    .header{
+        grid-template-columns: auto 1fr;
+    }
+    .header-navigation{
+        display: none;
+    }
+    .header-social{
+        justify-content: end;
+    }
+    .main-info-content{
+        width: 100%;
+        text-align: center;
+    }
+    .main-info-content__send{
+        margin: auto;
+    }
+    .make-shipments-img{
+        width: 100%;
+        height: 100%;
+    }
+    .make-shipments-info__button{
+        width: 100%;
+    }
+    .data-apaiky-cards{
+        padding-inline: 40px
+    }
 }
 @media screen and (max-width: 768px){
-
+    .main-info-content__title{
+        font-size: 1.7em;
+    }
+    .card-info{
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .make-shipments{
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .make-shipments-info{
+        text-align: center;
+    }
+    .tutorial-info{
+        text-align: center;
+    }
+    .tutorial-content{
+        flex-direction: column-reverse;
+    }
+    .tutorial-info{
+        gap: 40px;
+    }
+    .tutorial-info__button{
+        margin: auto;
+    }
+    .footer-form{
+        grid-template-columns: 1fr;
+    }
+    .footer-form__send{
+        margin: auto;
+    }
+    .footer-info{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .footer-redirect{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 550px){
+    .card-info{
+        padding: 100px 20px;
+    }
 }
 @media screen and (max-width: 480px){
-    
+    .main-info-content{
+        padding: 20px 40px;
+    }
+    .header-logo{
+        width: 100%;
+        margin: auto;
+    }
+    .data-apaiky-cards{
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 60px;
+    }
+    .footer{
+        padding: 30px 30px;
+    }
+    .card-info{
+        grid-template-columns: 1fr
+    }
+    .policity-privacity{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    .main-info::after{
+        display: none;
+    }
 }
 @media screen and (max-width: 320px){
-    
 }
