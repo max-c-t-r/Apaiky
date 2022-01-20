@@ -84,7 +84,7 @@ button{
     position: relative;
     display: flex;
     height: 80vh;
-    background-image: url(/images/pink\ vector-top.svg);
+    background-image: url(../images/pink\ vector-top.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
@@ -111,7 +111,7 @@ button{
 .main-info::before{
     position: absolute;
     content: '';
-    background-image: url(/images/city\ background.svg);
+    background-image: url(../images/city\ background.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -122,7 +122,7 @@ button{
 .main-info::after{
     position: absolute;
     content: '';
-    background-image: url(/images/motorcycle.svg);
+    background-image: url(../images/motorcycle.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 30%;
@@ -137,7 +137,7 @@ button{
     padding: 100px 100px;
     padding-bottom: 70px;
     gap: 20px;
-    background-image: url(/images/pink\ vector-down.svg);
+    background-image: url(../images/pink\ vector-down.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -187,7 +187,7 @@ button{
 .make-shipments::before{
     position: absolute;
     content: '';
-    background-image: url(/images/blue\ vector.svg);
+    background-image: url(../images/blue\ vector.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
