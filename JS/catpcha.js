@@ -5,10 +5,10 @@ const input = document.querySelector('.catpcha__input');
 
 changeTextBtn.addEventListener('click' , () => {
     code.textContent = createCaptcha() ;
-}) ;
+});
 window.addEventListener('load' , () => {
     code.textContent = createCaptcha() ;
-}) ;
+});
 
 function createCaptcha()  {
     let letters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
@@ -35,4 +35,4 @@ submitBtn.addEventListener('click',() => {
     else {
         alert('invalid input !') ;
     }
-}) 
+})
