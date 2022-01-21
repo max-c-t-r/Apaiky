@@ -1,0 +1,26 @@
+[
+    {
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina",
+        "direccion": "Calles Las Camelias 188 - Urb Camacho",
+        "telefono": "947537035",
+        "horario": "Lunes - sábado 8:00 am a 6:00pm"
+    },
+    {
+        "departamento": "Ayacucho",
+        "provincia": "Huamanga",
+        "distrito": "San Juan Bautista",
+        "direccion": "Jr. Naciones Unidas Nº 211",
+        "telefono": "066287777",
+        "horario": "Lunes - sábado 8:00 am a 6:00pm"
+    },
+    {
+        "departamento": "Ayacucho",
+        "provincia": "Víctor Fajardo",
+        "distrito": "Huancapi",
+        "direccion": "Jr Francia S/N",
+        "telefono": "066287777",
+        "horario": "Lunes - sábado 8:00 am a 6:00pm"
+    }
+]

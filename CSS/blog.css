@@ -1,9 +1,12 @@
 .blog{
     padding: 50px 100px;
+    max-inline-size: 1555px;
+    margin: auto;
 }
 .blog__title{
     color: #CF1684;
     font-size: 3em;
+    margin-bottom: 40px;
 }
 .blog__content{
     background: #fafafa;

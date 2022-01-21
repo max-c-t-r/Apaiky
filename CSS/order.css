@@ -1,5 +1,7 @@
 .order{
-    padding: 20px 100px;
+    padding: 50px 100px;
+    max-inline-size: 1555px;
+    margin: auto;
 }
 .order .order-title{
     display: flex;
@@ -7,7 +9,7 @@
     font-size: 1.6em;
     align-items: center;
     color: #CF1684;
-    margin: 50px 0;
+    margin-bottom: 50px;
 }
 .order-title__text{
     font-size: 1.8em;

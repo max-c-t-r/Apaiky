@@ -1,11 +1,12 @@
 /*cuerpo*/
 .main{
-    padding: 0 100px;
+    padding: 50px 100px;
+    max-inline-size: 1555px;
+    margin: auto;
 }
 .titulo{
     margin-bottom: 69px;
-    line-height: 71px;
-    font-size: 60px;
+    font-size: 3em;
     color: #CF1684;
 }
 .contact{
