@@ -33,6 +33,17 @@ button{
     font-weight: bold;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 25px;
+    background-color: white;
+}
+.button2{
+    color: #D5FF2E;
+    font-size: 25px;
+    line-height: 29px;
+    width: 250px;
+    height: 54px;
+    background: #373737;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 62px;
 }
 .button1:hover{
     background-color: var(--light_pink);
@@ -84,19 +95,21 @@ button{
     background: var(--light_pink);
 }
 /*Main info*/
-.main-info{
+.section-main{
     position: relative;
     display: flex;
-    height: 80vh;
     background-image: url(../images/pink\ vector-top.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
     align-items: center;
+    height: 80vh;
+}
+.main-content{
     max-inline-size: 1555px;
     margin: auto;
 }
-.main-info-content{
+.main-content-info{
     position: relative;
     padding: 20px 70px;
     position: relative;
@@ -108,13 +121,13 @@ button{
     gap: 20px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.main-info-content__title{
+.main-content-info__title{
     font-size: 2em
 }
-.main-info-content__title .pink{
+.main-content-info__title--pink{
     color: var(--light_pink);
 }
-.main-info::before{
+.section-main::before{
     position: absolute;
     content: '';
     background-image: url(../images/city\ background.svg);
@@ -125,29 +138,30 @@ button{
     height: 100%;
     z-index: -1;
 }
-.main-info::after{
+.section-main::after{
     position: absolute;
     content: '';
     background-image: url(../images/motorcycle.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 30%;
+    background-position: center bottom;
+    background-size: 430px;
     width: 100%;
     height: 100%;
 }
 /*Cards info*/
 .card-info{
     position: relative;
-    padding-bottom: 70px;
     gap: 20px;
     background-image: url(../images/pink\ vector-down.svg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
-    margin: auto;
-    max-inline-size: 1555px;
     margin-top: -1px;
     background-color: white;
+}
+.card-info-content{
+    margin: auto;
+    max-inline-size: 1555px;
 }
 .cards{
     display: grid;
@@ -181,30 +195,20 @@ button{
     font-size: 50px;
     margin: auto;
 }
-/* para poner las lineas azules
-.card-info::before{
-    position: absolute;
-    content: '';
-    background-image: url(/images/pink\ vector-down.svg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    width: 100%;
-    height: 100%;
-    top: -1px;
-}*/
 /*Make shipments*/
-.make-shipments{
+.shipments{
     position: relative;
-    padding: 20px 200px;
+}
+.shipments-content{
+    margin: auto;
+    max-inline-size: 1555px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: auto;
-    max-inline-size: 1555px;
+    padding: 20px 0px;
 }
-.make-shipments::before{
+.shipments::before{
     position: absolute;
     content: '';
     background-image: url(../images/blue\ vector.svg);
@@ -233,6 +237,8 @@ button{
 }
 /*steps*/
 .steps{
+    display: flex;
+    flex-direction: column;
     padding: 60px 120px;
     text-align: center;
     gap: 40px;
@@ -240,6 +246,9 @@ button{
     font-size: 1.2em;
     margin: auto;
     max-inline-size: 1555px;
+}
+.steps__title{
+    margin-bottom: 40px;
 }
 .steps__img{
     width: 100%;
@@ -270,7 +279,7 @@ button{
     gap: 10px;
 }
 .tutorial-info__title{
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 .tutorial-info__text{
     display: block;
@@ -282,18 +291,33 @@ button{
     color: var(--light_pink);
     background: linear-gradient(0deg, rgba(2,0,36,0) 67%, rgba(0,212,255,0.19091386554621848) 100%);
 }
+.data-apaiky::before{
+    position: absolute;
+    content: '';
+    background-image: url(../images/trayect.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    bottom: 0px;
+    width: 100%;
+    height: 250px;
+}
+.data-card{
+    padding: 20px;
+}
 .data-apaiky-content{
+    position: relative;
     margin: auto;
     max-inline-size: 1555px;
     text-align: center;
+    height: 500px;
 }
 .apaiky-content-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    padding-top: 60px;
-    padding-inline: 120px;
+    padding: 60px 120px;
     gap: 10px;
+    
 }
 .data-card__info{
     display: block;
@@ -313,17 +337,17 @@ button{
     align-items: center;
     justify-content: center;
     left: 26px;
-    bottom: 100px;
+    bottom: 50px;
     width: 50px;
     height: 50px;
-    padding: 1px;
+    padding: 10px;
     z-index: 1000;
-    background: rgb(25, 206, 25);
+    background: #25D366;
     border-radius: 50%;
 }
 .appWhatsapp__icon{
     color: white;
-    font-size: 3em;
+    font-size: 2.2em;
 }
 /*footer*/
 .footer{

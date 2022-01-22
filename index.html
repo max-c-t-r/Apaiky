@@ -28,56 +28,63 @@
         </div>
     </header>
     <main class="main">
-        <section class="main-info">
-            <div class="main-info-content">
-                <h2 class="main-info-content__title">
-                    Somos una startup especializada <span class="pink">en logística bajo demanda y soluciones</span> 
-                    para envíos de última milla basado en economía colaborativa.
-                </h2>
-                <button class="main-info-content__send button1">Empezar ahora</button>
+        <section class="section-main">
+            <div class="main-content">
+                <div class="main-content-info">
+                    <h2 class="main-content-info__title">
+                        Somos una startup especializada <span class="main-content-info__title--pink">en logística bajo demanda y soluciones</span> 
+                        para envíos de última milla basado en economía colaborativa.
+                    </h2>
+                    <button class="main-content-info__send button1">Empezar ahora</button>
+                </div>
+            </div>
+        </section>
+        <section class="card-info">
+            <div class="card-info-content">
+                <li class="cards">
+                    <a class="card" href="agency.html">
+                        <i class="card__icon fas fa-map-marker-alt"></i>
+                        <span class="card__info">Busca tu agencia</span>
+                    </a>
+                    <a class="card" href="list-prices.html">
+                        <i class="card__icon fas fa-archive"></i>
+                        <span class="card__info">Consulta tu tarifa</span>
+                    </a>
+                    <a class="card" href="legacity.html">
+                        <i class="card__icon fas fa-calculator"></i>
+                        <span class="card__info">Legalidad</span>
+                    </a>
+                    <a class="card" href="order.html">
+                        <i class="card__icon fas fa-search"></i>
+                        <span class="card__info">Conoce donde esta tu envío</span>
+                    </a>
+                    <a class="card" href="#">
+                        <i class="card__icon fas fa-coins"></i>
+                        <span class="card__info">Pagalo Online</span>
+                    </a>
+                </li>
             </div>
         </section>
 
-        <section class="card-info">
-            <li class="cards">
-                <a class="card" href="agency.html">
-                    <i class="card__icon fas fa-map-marker-alt"></i>
-                    <span class="card__info">Busca tu agencia</span>
-                </a>
-                <a class="card" href="list-prices.html">
-                    <i class="card__icon fas fa-archive"></i>
-                    <span class="card__info">Consulta tu tarifa</span>
-                </a>
-                <a class="card" href="legacity.html">
-                    <i class="card__icon fas fa-calculator"></i>
-                    <span class="card__info">Legalidad</span>
-                </a>
-                <a class="card" href="order.html">
-                    <i class="card__icon fas fa-search"></i>
-                    <span class="card__info">Conoce donde esta tu envío</span>
-                </a>
-                <a class="card" href="#">
-                    <i class="card__icon fas fa-coins"></i>
-                    <span class="card__info">Pagalo Online</span>
-                </a>
-            </li>
-        </section>
-
-        <section class="make-shipments">
-            <img class="make-shipments-img" src="images/computer and smartphone.svg" alt="Computer">
-            <div class="make-shipments-info">
-                <h3 class="make-shipments-info__title">Realiza tus envíos</h3>
-                <span class="make-shipments-info__text">desde nuestra <span>plataforma web</span>, desde tu computadora o smartphone</span>
-                <button class="make-shipments-info__button button1">Ingresa Aquí</button>
+        <section class="shipments">
+            <div class="shipments-content">
+                <img class="make-shipments-img" src="images/computer and smartphone.svg" alt="Computer">
+                <div class="make-shipments-info">
+                    <h3 class="make-shipments-info__title">Realiza tus envíos</h3>
+                    <span class="make-shipments-info__text">desde nuestra <span>plataforma web</span>, desde tu computadora o smartphone</span>
+                    <button class="make-shipments-info__button button1">Ingresa Aquí</button>
+                </div>
             </div>
         </section>
 
         <section class="steps">
-            <h2 class="steps__title">
-                No más llamadas o mensajes, desde ahora solicita tus envíos de paquetes online
-                en 4 sencillos pasos.
-            </h2>
-            <img class="steps__img" src="images/Follow the steps.svg" alt="Follow steps">
+            <div class="steps-content">
+                <h2 class="steps__title">
+                    No más llamadas o mensajes, desde ahora solicita tus envíos de paquetes online
+                    en 4 sencillos pasos.
+                </h2>
+                <img class="steps__img" src="images/Follow the steps.svg" alt="Follow steps">
+            </div>
         </section>
 
         <section class="tutorial">
@@ -117,7 +124,9 @@
                         </span>
                     </div>
                 </div>
+                <!--
                     <img class="apaiky-content-img" src="images/trayect.svg" alt="">
+                -->
             </div>
         </section>
     </main>
@@ -158,4 +167,6 @@
         </div>
     </footer>
 </body>
+<script src="JS/scrollreveal.min.js"></script>
+<script src="JS/scrollanimation.js"></script>
 </html>

@@ -14,7 +14,7 @@
 .agencia-title__text{
     font-size: 1.8em;
 }
-.agencia-title__text .size{
+.agencia-title__text--size{
     display: block;
     font-size: 2em;
 }
@@ -36,6 +36,11 @@
     border-radius: 8px;
     background: #517393;
     color: white;
+    height: 45px;
+    font-size: 15px;
+}
+.selector-options__op{
+    font-size: 15px;
 }
 .agencia-selector-send{
     margin: auto;
@@ -49,7 +54,7 @@
 .info-location-direction{
     text-transform: uppercase;
 }
-.direction__location .size{
+.direction__location--size{
     color: red;
     display: block;
     font-weight: bold;
